@@ -1,0 +1,63 @@
+=== FULL RESPONSE OBJECT ===
+sdk_http_response=HttpResponse(
+  headers=<dict len=12>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        text='An API call is a request sent by one software application to another to retrieve data or perform a specific action. It acts as a digital messenger, allowing different programs to communicate and share information with each other seamlessly.',
+        thought_signature=b'\x12\xc5\x0e\n\xc2\x0e\x01\x11M2\x0f\x01\xd4\x89}T\x15\t>|_\xef\xcf\xd8+\xees\xbccX\xa2\xbe\xb4\xb7p\xc0\x10\x19\x18\xa1"X\xac\xaa\xfd\xaa6\x16\xc7\xdc\xbde*\xc8\xb2\x92X\xdf\xba\x91a\xf2\x12\xfe,f\xef@\xce\x0f\x18\xf2\xffy\xcbr\x11oc<Q\xb9\x1f\x952)b\xa5\xe91\xb9\x16\xb2\xa1\xfe6a...'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-3.5-flash' prompt_feedback=None response_id='7C17aqmkJ-nrqfkP4IfkiQg' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=42,
+  prompt_token_count=13,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=13
+    ),
+  ],
+  thoughts_token_count=405,
+  total_token_count=460
+) model_status=None automatic_function_calling_history=[] parsed=None
+
+=== JUST THE TEXT ===
+An API call is a request sent by one software application to another to retrieve data or perform a specific action. It acts as a digital messenger, allowing different programs to communicate and share information with each other seamlessly.
+
+=== USAGE METADATA ===
+cache_tokens_details=None cached_content_token_count=None candidates_token_count=42 candidates_tokens_details=None prompt_token_count=13 prompt_tokens_details=[ModalityTokenCount(
+  modality=<MediaModality.TEXT: 'TEXT'>,
+  token_count=13
+)] thoughts_token_count=405 tool_use_prompt_token_count=None tool_use_prompt_tokens_details=None total_token_count=460 traffic_type=None
+
+=== FINISH REASON ===
+FinishReason.STOP
+
+
+
+
+===== 2nd Try =====
+
+
+
+=== JUST THE TEXT ===
+This sentence is famous because it is a **pangram**—a sentence that contains every letter of the English alphabet (from A to Z) at least once. 
+
+However, there is a tiny catch with the exact version you wrote: **"A quick brown fox..." is actually missing the letters "T" and "H."**
+
+To make it a true pangram, it must be written as:
+> "**The** quick brown fox jumps over **the** lazy dog."
+
+### Why is it used?
+Because it is relatively short and makes sense, this sentence has been used for over a century for:
+* **Testing keyboards and typewriters:** To ensure every key is working.
+* **Displaying fonts:** Graphic designers and computer programs use it to show how every letter of a typeface looks in a single sentence.
+* **Practice:** It is commonly used in calligraphy and touch-typing practice.
+
+=== FINISH REASON ===
+FinishReason.STOP

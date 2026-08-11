@@ -6,7 +6,7 @@ In this repo I will complete the checklist provided to me by claude for Agentic 
 Tick one box per day. ~60–90 min/day. Don't skip to the next week's tasks early — build in order.
 
 ## Week 1 — LLM API Fundamentals
-- [ ] Day 1: Set up API access (OpenAI/Anthropic/Gemini), send your first basic completion call from a script
+- [x] Day 1: Set up API access (OpenAI/Anthropic/Gemini), send your first basic completion call from a script
 - [ ] Day 2: Experiment with system prompts vs user prompts, temperature, max tokens
 - [ ] Day 3: Implement function calling — get the model to call one dummy function correctly
 - [ ] Day 4: Get the model to return structured JSON output reliably (use schema/response_format if available)

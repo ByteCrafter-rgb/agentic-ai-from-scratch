@@ -1,0 +1,3 @@
+* Gemini 3.5 free tier limit got exhausted.
+* Will try again tomorrow.
+* Thing to kept in mind is, to use less API calls and understand the limits of free tier properly.

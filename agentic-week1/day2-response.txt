@@ -1,3 +1,32 @@
-* Gemini 3.5 free tier limit got exhausted.
-* Will try again tomorrow.
-* Thing to kept in mind is, to use less API calls and understand the limits of free tier properly.
+PART 1: SYSTEM PROMPT CHANGES BEHAVIOR
+==================================================
+
+[Pirate system prompt]
+Avast! Ye be askin' about the heart o' the land across the sea, eh? That be **Paris**, ye scurvy dog! 'Tis where the fine folk dine and the lights shimmer like gold doubloons under the moon. Now, be off with ye before I make ye walk the plank!
+
+[Terse fact-checker system prompt]
+The capital of France is Paris.
+
+==================================================
+PART 2: TEMPERATURE AFFECTS RANDOMNESS
+==================================================
+
+--- temperature=0 ---
+  1. **Awaken your senses, one cup at a time.**
+  2. **Awaken your senses, one cup at a time.**
+
+--- temperature=0.5 ---
+  1. **Awaken your senses, one cup at a time.**
+  2. **Awaken your senses, one cup at a time.**
+
+--- temperature=1.0 ---
+  1. **Awaken your senses, one cup at a time.**
+  2. **Awaken your senses, one cup at a time.**
+
+==================================================
+PART 3: MAX TOKENS CAN TRUNCATE OUTPUT
+==================================================
+
+Text: Photosynthesis is arguably the most important chemical process on Earth. It is the mechanism by which plants, algae
+Finish reason: FinishReason.MAX_TOKENS
+Output tokens used: 21

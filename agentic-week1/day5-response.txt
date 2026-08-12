@@ -1,0 +1,11 @@
+You: Hello
+Bot: Hello! How can I help you today?
+You: what is your name?
+Bot: I don’t have a personal name! I am a large language model, trained by Google.
+You: Ask me my name
+Bot: What is your name?
+You: My name is ayush!
+Bot: Nice to meet you, Ayush! How can I help you today?
+You: Now tell me what is my name?
+Bot: Your name is Ayush!
+You: exit

@@ -1,0 +1,40 @@
+=== RAW RESPONSE (first pass) ===
+sdk_http_response=HttpResponse(
+  headers=<dict len=12>
+) candidates=[Candidate(
+  content=Content(
+    parts=[
+      Part(
+        function_call=FunctionCall(
+          args={
+            'location': 'Tokyo'
+          },
+          id='call_992130',
+          name='get_weather'
+        ),
+        thought_signature=b'\x12q\no\x01\x11M2\x0f\xb6\x06\xd8!\xd7\xc9\x9c\xc1\xe8\x8b\xa3\xfc\xb3U\xc5\x04\xcf\xf3A\x11\xae\x1f\xb1\xb0Z\x804\xf77\x12_\x95\x8f3\x1e\x87d\x886\xec\x81%\x88\xe3W\xe0\x99\xad\xde\x82\xefF\xc3#\xb9\x8d\xa1Cz\x06@Ze\xa5\x9d\xf0I\xa0?V\xc8\xbc\xfb\x96\x8e\x03\xd3\xa7\nB/\xf0\xe7;0\xa5]\x1f...'
+      ),
+    ],
+    role='model'
+  ),
+  finish_reason=<FinishReason.STOP: 'STOP'>,
+  index=0
+)] create_time=None model_version='gemini-3.1-flash-lite' prompt_feedback=None response_id='RqR8arAHtuKO4w_Qi_KhBw' usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=16,
+  prompt_token_count=81,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=81
+    ),
+  ],
+  total_token_count=97
+) model_status=None automatic_function_calling_history=None parsed=None
+
+Model wants to call: get_weather
+With arguments: {'location': 'Tokyo'}
+    [dummy function actually executing for: Tokyo]
+Function result: {'location': 'Tokyo', 'temperature_c': 24, 'condition': 'Sunny'}
+
+=== FINAL NATURAL LANGUAGE ANSWER ===
+The weather in Tokyo is currently sunny with a temperature of 24°C.

@@ -1,0 +1,24 @@
+=== RAW TEXT (should be valid JSON) ===
+{
+  "recipe_name": "Simple Scrambled Eggs",
+  "prep_time_minutes": 5,
+  "difficulty": "easy",
+  "ingredients": [
+    "2 large eggs",
+    "1 tablespoon butter",
+    "1 tablespoon milk",
+    "pinch of salt",
+    "pinch of black pepper"
+  ]
+}
+
+=== PARSED PYTHON DICT ===
+Recipe: Simple Scrambled Eggs
+Prep time: 5 minutes
+Difficulty: easy
+Ingredients:
+  - 2 large eggs
+  - 1 tablespoon butter
+  - 1 tablespoon milk
+  - pinch of salt
+  - pinch of black pepper

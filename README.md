@@ -11,8 +11,8 @@ Tick one box per day. ~60–90 min/day. Don't skip to the next week's tasks earl
 - [x] Day 3: Implement function calling — get the model to call one dummy function correctly
 - [x] Day 4: Get the model to return structured JSON output reliably (use schema/response_format if available)
 - [x] Day 5: Build a tiny CLI chatbot that keeps conversation history in a list
-- [ ] Day 6: Add error handling — rate limits, timeouts, malformed responses
-- [ ] Day 7: Review — write 5 lines in NOTES.md on what you learned + what confused you
+- [x] Day 6: Add error handling — rate limits, timeouts, malformed responses
+- [x] Day 7: Review — write 5 lines in NOTES.md on what you learned + what confused you
 
 ## Week 2 — Prompting + Single-Tool Agent
 - [ ] Day 1: Pick one real external API (weather, currency, search) and call it manually first

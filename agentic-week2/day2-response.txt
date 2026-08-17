@@ -1,0 +1,7 @@
+Ask me about the weather somewhere: Hello , how are you brown boy?
+
+Model requested: get_weather({'city': 'Pune'})
+    [REAL function executing for: Pune]
+Real result: {'city': 'Pune', 'temperature_c': 23.0, 'condition': 'Overcast', 'wind_speed_kmh': 14.0}
+
+Bot: I'm doing well, thank you for asking! I hope you're having a good day. How are things with you?

@@ -18,10 +18,10 @@ Tick one box per day. ~60–90 min/day. Don't skip to the next week's tasks earl
 - [x] Day 1: Pick one real external API (weather, currency, search) and call it manually first
 - [x] Day 2: Wire that API as a "tool" the model can call via function calling
 - [x] Day 3: Get the agent to decide ON ITS OWN whether to use the tool or answer directly
-- [ ] Day 4: Add a second tool, test the model choosing correctly between the two
-- [ ] Day 5: Handle tool failure gracefully (API down, bad input) — agent should recover, not crash
-- [ ] Day 6: Write basic logging so you can see the agent's tool-call decisions
-- [ ] Day 7: Review — commit to GitHub with a short README describing what it does
+- [x] Day 4: Add a second tool, test the model choosing correctly between the two
+- [x] Day 5: Handle tool failure gracefully (API down, bad input) — agent should recover, not crash
+- [x] Day 6: Write basic logging so you can see the agent's tool-call decisions
+- [x] Day 7: Review — commit to GitHub with a short README describing what it does
 
 ## Week 3 — Learn One Orchestration Framework
 - [ ] Day 1: Install LangGraph (or CrewAI), read core concepts docs (nodes/edges or agents/tasks)

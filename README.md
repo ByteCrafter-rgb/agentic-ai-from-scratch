@@ -24,7 +24,7 @@ Tick one box per day. ~60–90 min/day. Don't skip to the next week's tasks earl
 - [x] Day 7: Review — commit to GitHub with a short README describing what it does
 
 ## Week 3 — Learn One Orchestration Framework
-- [ ] Day 1: Install LangGraph (or CrewAI), read core concepts docs (nodes/edges or agents/tasks)
+- [x] Day 1: Install LangGraph (or CrewAI), read core concepts docs (nodes/edges or agents/tasks)
 - [ ] Day 2: Rebuild your Week 2 single-tool agent using the framework
 - [ ] Day 3: Understand how the framework manages state vs how you did it manually
 - [ ] Day 4: Add a conditional branch (e.g. agent decides between 2+ paths, not just tool y/n)
